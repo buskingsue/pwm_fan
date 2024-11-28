@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "atmega128a"
+		},
+		{
+			"name": "build",
+			"path": "atmega128a/build"
+		}
+	],
+	"settings": {
+		"cmake.cmakePath": "/usr/bin/cmake",
+		"cmake.configureArgs": [
+			"-DAVR_TOOLCHAIN_DIR=/home/kds/avr8",
+			"-DCMAKE_MAKE_PROGRAM=/usr/bin/make"
+		],
+		"cmake.generator": "Unix Makefiles",
+		"files.associations": {
+			"iom128a.h": "c",
+			"ap.h": "c",
+			"pwm8.h": "c"
+		},
+		"editor.fontFamily": "'Courier New', 'monospace', monospace",
+		"terminal.integrated.fontFamily": "'Courier New'"
+	}
+}

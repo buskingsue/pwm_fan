@@ -1,0 +1,7 @@
+[
+    {
+            "name": "AVR_GCC Embedded",
+            "toolchainFile": "${workspaceFolder}/tools/avr-gcc.cmake"
+    }
+
+]
